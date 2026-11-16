@@ -1,0 +1,5 @@
+dataset,status,count,expected,path,origin
+iNaturalist,READY,10000,10000,/data/hx/code/NegLabel/data/ood_data/iNaturalist/images,official prepared flat path
+SUN,READY,10000,10000,/data/hx/code/NegLabel/data/ood_data/SUN/images,official prepared flat path
+Places,READY,10000,10000,/data/hx/code/NegLabel/data/ood_data/Places/images,official prepared flat path
+Textures,READY,5640,5640,/data/hx/code/NegLabel/data/ood_data/Textures/dtd/images_collate,official prepared flat path

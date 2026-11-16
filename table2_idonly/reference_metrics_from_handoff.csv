@@ -1,0 +1,11 @@
+method,dataset,auroc,fpr95,source
+NegLabel,iNaturalist,99.47,2.01,handoff_rounded_current_reproduction
+NegLabel,SUN,95.43,21.11,handoff_rounded_current_reproduction
+NegLabel,Places,91.95,34.88,handoff_rounded_current_reproduction
+NegLabel,Textures,90.09,44.68,handoff_rounded_current_reproduction
+NegLabel,Average,94.24,25.67,handoff_reported_unrounded_macro_average
+Ours,iNaturalist,99.57,1.56,handoff_rounded_fivecrop_alpha07
+Ours,SUN,95.59,20.15,handoff_rounded_fivecrop_alpha07
+Ours,Places,92.46,32.56,handoff_rounded_fivecrop_alpha07
+Ours,Textures,90.79,42.43,handoff_rounded_fivecrop_alpha07
+Ours,Average,94.60,24.17,handoff_reported_unrounded_macro_average

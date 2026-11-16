@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-11-11T03:05:35.494562+00:00",
+  "action": "verify",
+  "id": {
+    "path": "/data/Public/imagenet/val",
+    "count": 50000,
+    "categories": 1000,
+    "expected": 50000,
+    "annotation": "/data/hx/code/NegLabel_Crop_Compare/data/imagenet_val_ood_index.txt",
+    "annotation_rows": 50000,
+    "ready": true
+  },
+  "ood": {
+    "iNaturalist": {
+      "status": "READY",
+      "path": "/data/hx/code/NegLabel/data/ood_data/iNaturalist/images",
+      "count": 10000,
+      "expected": 10000,
+      "origin": "official prepared flat path"
+    },
+    "SUN": {
+      "status": "READY",
+      "path": "/data/hx/code/NegLabel/data/ood_data/SUN/images",
+      "count": 10000,
+      "expected": 10000,
+      "origin": "official prepared flat path"
+    },
+    "Places": {
+      "status": "READY",
+      "path": "/data/hx/code/NegLabel/data/ood_data/Places/images",
+      "count": 10000,
+      "expected": 10000,
+      "origin": "official prepared flat path"
+    },
+    "Textures": {
+      "status": "READY",
+      "path": "/data/hx/code/NegLabel/data/ood_data/Textures/dtd/images_collate",
+      "count": 5640,
+      "expected": 5640,
+      "origin": "official prepared flat path"
+    }
+  }
+}
