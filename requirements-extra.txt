@@ -1,0 +1,7 @@
+# The official NegLabel runtime and OpenAI CLIP must be installed from its own README.
+# These dependencies are for the comparison runner / diagnostic plots.
+numpy
+scikit-learn
+Pillow
+matplotlib
+pytest
