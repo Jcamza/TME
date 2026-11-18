@@ -1,6 +1,0 @@
-# Install in existing iso environment ONLY if modules are missing:
-# python -m pip install -r requirements-attention.txt
-# No new environment, no GPU reinstall, no MMCV changes.
-transformers>=4.45,<5
-safetensors>=0.4
-scipy>=1.10
